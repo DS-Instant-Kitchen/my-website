@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>About - DS instant Kitchen</title>
+</head>
+
+<body>
+    <!-- header Starts -->
+    <header>
+        <div class="main-content">
+            <div>
+                <a class="logo" href="index.html"> <img src="Img/ds logo.png" alt="DS Instant Kitchen Logo">
+                    <h1>Dhanaselvam <br> <span class="blue-word">Instant Kitchen</span></h1>
+                </a>
+            </div>
+            <nav>
+                <div class="menu">
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li>About</li>
+                        </a>
+                        <a href="service.html"><li>Our Service</li></a>
+                       
+                        <a href="contact.html"><li class="active">Contact</li></a>
+                    </ul>
+                </div>
+                <div id="mob-res" class="mob-hamburger">
+                    <span class="layer-1"></span>
+                    <span class="layer-2"></span>
+                    <span class="layer-3"></span>
+                </div>
+            </nav>
+        </div>
+        <div id="ad-class" class="mob-menu">
+            <p id="close-btn">X</p>
+            <hr style="margin-top: 20px;">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="service.html">
+                    <li>Our Service</li>
+                </a>
+                <a href="contact.html">
+                    <li class="active">Contact</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <!-- about banner -->
+    <section>
+        <div style="margin-top: 120px;">
+            <div class="background-container">
+                <div class="secondary-container">
+                    <center>
+                        <h1>Feel Free to contact Us</h1>
+                        <p>We make life easier for Bulk food Manufacturing</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section -->
+    <!-- <section>
+        <div class="gallery-sec">
+            <div class="bg-img-1"></div>
+            <div class="bg-img-2"></div>
+            <div class="bg-img-3"></div>
+            <div class="bg-img-4"></div>
+            <div class="bg-img-5"></div>
+            <div class="bg-img-6"></div>
+            <div class="bg-img-7"></div>
+            <div class="bg-img-8"></div>
+        </div>
+    </section> -->
+
+    <section>
+        <div class="primary-container-form">
+            <div class="secondary-container-form">
+                <div class="form-container">
+                    <div>
+                        <h2>We would Love to hear from you</h2>
+                        <p>Fill this form and our team will get back to you</p>
+                    </div>
+                    <form
+                    id="form-functions"
+                    onsubmit="sendEmail(); reset(); return false;"
+                    method="post"
+                    >
+                        <h2>Contact Form</h2>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="Enter Your Full Name">
+                        <label for="telephone">Mobile Number</label>
+                        <input type="text" id="mobile-number" placeholder="Enter Mobile Number">
+                        <label for="email">Email</label>
+                        <input type="text" id="email-id" placeholder="Enter Your Email ID">
+                        <label for="Order">Order or Enquiry</label>
+                        <input type="text" id="order-enquiry" placeholder="Order or Enquiry">
+                        <label for="Order">Item for Order or Enquiry</label>
+                        <input type="text" id="product" placeholder="Parota, Poori and More ">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- call to action section -->
+        <section>
+            <div class="main-container-CTA">
+                <div class="container-CTA">
+                    <div class="Card-CTA">
+                        <img src="https://api.iconify.design/mdi:phone-classic.svg" alt="Call DS Instant Kitchen">
+                        <p>24/7 We are available, <br> Feel free to call us</p>
+                        <a class="btn" href="tel:+918667530035">Call Now</a>
+                    </div>
+                    <div class="Card-CTA">
+                        <img src="https://api.iconify.design/mdi:chat-processing.svg" alt="Call DS Instant Kitchen">
+                        <p>Send Message with one click away, <br class="foot-card-br"> Get in touch with us</p>
+                        <a target="_blank" class="btn" href="https://api.whatsapp.com/send?phone=918667530035&text=*Hi%20DS-Instant%20Kitchen!%20I%20want%20to%20know%20more%20about%20Your%20Service*.%20">Message</a>
+                    </div>
+                    <div class="Card-CTA">
+                        <img src="https://api.iconify.design/mdi:email.svg" alt="Mail DS Instant Kitchen">
+                        <p>We would love to hear from you, <br class="foot-card-br"> Our Team will get back to you</p>
+                        <a class="btn" href="">Send Mail</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- footer Starts -->
+    <footer>
+        <div class="main-container-footer">
+            <div class="container-footer">
+                <div class="c-1">
+                    <div>
+                        <a class="logo" href="index.html"> <img style="width: 50px;" src="Img/ds logo.png"
+                                alt="DS Instant Kitchen Logo">
+                            <h1 style="font-size: 15px; line-height: 1rem;">Dhanaselvam <br> <span
+                                    class="blue-word">Instant Kitchen</span></h1>
+                        </a>
+                        <p style="margin-top: 20px; font-size: 15px; line-height: 1.6rem;">We are instant Kitchen in
+                            Erode, We deliver <br class="break"> Parrotta, Peda, Poori, NattuKoli Kulambu (Curry), <br
+                                class="break"> NattuKoli Varuval (gravy) & more.</p>
+                        <p style="margin-top: 20px; font-size: 15px;">Contact : +91 93857 44035.</p>
+
+                    </div>
+                </div>
+                <hr class="line-footer">
+                <div class="list-items">
+                    <div>
+                        <ul>
+                            <h4>Quick Link</h4>
+                            <a href="">
+                                <li>Home</li>
+                            </a>
+                            <a href="">
+                                <li>About</li>
+                            </a>
+                            <a href="">
+                                <li>Service</li>
+                            </a>
+                            <a href="">
+                                <li>Contact</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <h4>Order now</h4>
+                            <a href="">
+                                <li>Order Parotta</li>
+                            </a>
+                            <a href="">
+                                <li>Order Parota Peda</li>
+                            </a>
+                            <a href="">
+                                <li>Order Poori</li>
+                            </a>
+                            <a href="">
+                                <li>Order Chappathi</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <h4>Special</h4>
+                            <a href="">
+                                <li>Nattukoli Kulambu</li>
+                            </a>
+                            <a href="">
+                                <li>Nattukoli Varuval</li>
+                            </a>
+                            <a href="">
+                                <li>Nattukoli Specail</li>
+                            </a>
+                            <a href="">
+                                <li>Poori Masala</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <h4>Get in touch</h4>
+                            <a href="">
+                                <li>Call now</li>
+                            </a>
+                            <a href="">
+                                <li>WhatsApp</li>
+                            </a>
+                            <a href="">
+                                <li>Send Mail</li>
+                            </a>
+                            <a href="">
+                                <li>Map</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="go-to-top" id="go-to-top-home">
+            <img src="Img/Arrow-up.png" alt="JS Traders - back-to-top">
+        </div>
+        <div class="bottom-footer">
+            <div class="bottom-footer-content">
+                <p>&copy; All rights reserved</p>
+                <p>Designed and Built by Sam - Incandescent</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+        const goToBtn = document.querySelector('.go-to-top');
+
+        window.addEventListener('scroll', checkHeight)
+
+        function checkHeight() {
+            if (window.scrollY < 550) {
+                goToBtn.style.display = "none"
+            } else {
+                goToBtn.style.display = "block"
+            }
+        }
+
+        goToBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            })
+        })
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>

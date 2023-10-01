@@ -1,0 +1,154 @@
+
+
+.background-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url(Img/Doodle.png);
+}
+.secondary-container{
+    width: 85%;
+}
+.secondary-container center {
+    padding: 60px 0px;
+}
+.secondary-container center h1{
+    padding: 10px 0px;
+    line-height: 2.5rem;
+    font-size: 35px;
+    color: #fe5a00;
+}
+.secondary-container center p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.gallery-sec{
+    display: flex;
+}
+
+.bg-img-1{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Nattukoli\ kolambu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-2{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Nattukoli\ Varuval.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-3{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Parott.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-4{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Chapathi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-5{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Poori.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-6{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Parotta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-7{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Poori\ 1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-8{
+    width:400px;
+    height: 150px;
+    background-image: url(Img/Chappathi.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1235px){
+    .bg-img-1,
+    .bg-img-2,
+    .bg-img-3,
+    .bg-img-4,
+    .bg-img-5,
+    .bg-img-6,
+    .bg-img-7,
+    .bg-img-8 {
+        height: 100px;
+    }
+}
+@media screen and (max-width: 1235px){
+    .bg-img-7,
+    .bg-img-8{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px){
+    .bg-img-3{
+        display: none;
+    }
+    .bg-img-1,
+    .bg-img-2,
+    .bg-img-4,
+    .bg-img-5,
+    .bg-img-6 {
+        height: 70px;
+    }
+}
+.primary-container{
+    display: flex;
+    justify-content: center;
+}
+.about-video{
+    padding: 80px 0px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondary-container-1{
+    width: 60%;
+}
+.about-video video{
+    width: 230px;
+}
+.secondary-container-1 p{
+    font-size: 15.6px;
+    text-align: justify;
+}
+@media screen and (max-width: 1450px){
+    .secondary-container-1{
+        width: 75%;
+    }
+    .about-video{
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 770px){
+    .about-video{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 450px){
+    .secondary-container-1{
+        width: 85%;
+    }
+}
